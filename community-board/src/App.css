@@ -7,6 +7,12 @@
 
 .header {
   text-align: center;
+  background-color: blanchedalmond;
+  padding: 2%;
+}
+
+.header h1 {
+  margin: 0
 }
 
 .form-element {
@@ -16,6 +22,7 @@
   border: 16px rgb(83, 83, 83) solid;
   border-radius: 12px;
   color: white;
+  margin-bottom: 3%;
 }
 
 .form-container {
@@ -30,11 +37,6 @@
 
 .form {
   width: 50%;
-}
-
-.post-title {
-  font-size: 50px;
-  line-height: 0.6;
 }
 
 .post-description {
@@ -53,13 +55,15 @@ Form {
   font-weight: bold;
 }
 
-/* .card {
-  padding: 1.7em;
-} */
+.post-title {
+  font-size: 50px;
+  line-height: 0.6;
+}
 
 .posts-list {
-  /* display: flex; */
-  /* gap: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (prefers-color-scheme: dark) {
