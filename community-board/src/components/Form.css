@@ -1,0 +1,43 @@
+.inputs {
+    display: flex;
+}
+
+input {
+    padding: 3%;
+    font-weight: bold;
+}
+
+.left-inputs {
+    width: 40%;
+    margin-right: 8%;
+}
+
+.fav-scene-label {
+    display: block;
+    line-height: 0;
+    margin: 4% 0 7% 0;
+}
+
+#fav-scene {
+    display: block;
+    width: 100%;
+    height: 190px;
+    resize: none;
+}
+
+.right-input {
+    width: 50%;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.form-row label {
+  text-align: left;
+  white-space: nowrap;
+}
